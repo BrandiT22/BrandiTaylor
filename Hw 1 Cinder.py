@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb 28 20:53:58 2022
-
-@author: lynae
-"""
-
 # %%
 import pandas as pd
 import numpy as np 
@@ -97,14 +90,14 @@ fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
 df_stk2 = pd.read_csv(readFile,index_col='Date',parse_dates=True)
-df_stk.head()
+df_stk1.head()
 # %%
 stkName = 'MTDR'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
 df_stk = pd.read_csv(readFile,index_col='Date',parse_dates=True)
-df_stk.head()
+df_stk2.head()
 
 # %%
 stkName = 'NFLX'
@@ -112,14 +105,14 @@ fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
 df_stk3 = pd.read_csv(readFile,index_col='Date',parse_dates=True)
-df_stk.head()
+df_stk3.head()
 #%%
 stkName = 'CCLwrds2'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
 df_stk4 = pd.read_csv(readFile,index_col='Date',parse_dates=True)
-df_stk.head()
+df_stk4.head()
 
 #%%
 stkName = 'MTDRwrds2'
@@ -127,7 +120,7 @@ fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
 df_stk5 = pd.read_csv(readFile,index_col='Date',parse_dates=True)
-df_stk.head()
+df_stk5.head()
 
 #%%
 stkName = 'NFLXwrds2'
@@ -135,4 +128,4 @@ fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
 df_stk6 = pd.read_csv(readFile,index_col='Date',parse_dates=True)
-df_stk.head()
+df_stk6.head()
