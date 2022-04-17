@@ -1,13 +1,16 @@
+"""
 Created on Sun Apr 17 15:46:26 2022
 
 @author: lynae
-"""
+""
+ 
 
 # STK NFLX 
 
 # Import requests to retrieve Web Urls example HTML. TXT  
 
 import requests 
+
 
 
 # STK FORD
@@ -198,6 +201,5 @@ item_1a_content = BeautifulSoup(item_1a_raw, 'lxml')
 
 print(item_1a_content.prettify()[0:1000]) 
 
-  
 
 print(item_1a_content.get_text("\n\n")) 
